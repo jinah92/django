@@ -1,7 +1,6 @@
 <h1>Django</h1>
 
 **1. 설치**
-	[powershell - 관리자 모드 실행]
 	- python 설치 후 환경변수 지정
 	- django 설치
 	    - easy_install django==<version>

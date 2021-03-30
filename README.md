@@ -25,6 +25,12 @@
 1.  python manage.py migrate
 
 2.  migration 절차
-   - python manage.py makemigrations <APP> 	-- migration 생성
+   - <project>/settings.py 내에 있는 INSTALLED_APPS에 APP 추가
+   - python manage.py makemigrations <APP> 	-- migration 파일 생성
    - python manage.py sqlmigrate <APP> <VER>	-- db 수정
    - python manage.py migrate 				-- db 동기화(migrate)
+
+
+
+**5. 관리자 유저 생성**
+1. python manage.py createsuperuser

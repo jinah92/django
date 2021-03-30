@@ -2,9 +2,11 @@
 
 **1. 설치**
 	- python 설치 후 환경변수 지정
-	- django 설치
+	- django 설치 (1)
 	    - easy_install django==<version>
 		- (설치확인) django-admin --version
+	- django 설치 (2)
+		- pip install django
 
 
 
